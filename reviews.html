@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews - Cinepa</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="logo">cinepa</h1>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="ost.html" class="nav-link">OST</a></li>
+                    <li><a href="blogs.html" class="nav-link">Blogs</a></li>
+                    <li><a href="events.html" class="nav-link">Events</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h2>Movie Reviews</h2>
+                <p>In-depth reviews of the latest and greatest films</p>
+            </div>
+        </section>
+
+        <section class="reviews-section">
+            <div class="container">
+                <div class="review-filters">
+                    <button class="filter-btn active" data-genre="all">All</button>
+                    <button class="filter-btn" data-genre="action">Action</button>
+                    <button class="filter-btn" data-genre="drama">Drama</button>
+                    <button class="filter-btn" data-genre="sci-fi">Sci-Fi</button>
+                </div>
+
+                <div class="reviews-grid">
+                    <article class="review-card" data-genre="sci-fi">
+                        <div class="review-header">
+                            <h3>Inception</h3>
+                            <div class="rating">★★★★★</div>
+                        </div>
+                        <div class="review-meta">
+                            <span>Director: Christopher Nolan</span>
+                            <span>Year: 2010</span>
+                        </div>
+                        <p>Christopher Nolan's masterpiece takes us into the world of dreams within dreams. The film's complex narrative structure and stunning practical effects create an unforgettable cinematic experience that challenges viewers to question reality itself.</p>
+                        <div class="review-footer">
+                            <span class="genre-tag">Sci-Fi</span>
+                            <a href="ost.html" class="ost-link">Listen to OST</a>
+                        </div>
+                    </article>
+
+                    <article class="review-card" data-genre="sci-fi">
+                        <div class="review-header">
+                            <h3>Interstellar</h3>
+                            <div class="rating">★★★★☆</div>
+                        </div>
+                        <div class="review-meta">
+                            <span>Director: Christopher Nolan</span>
+                            <span>Year: 2014</span>
+                        </div>
+                        <p>A visually stunning space epic that combines hard science with emotional storytelling. Hans Zimmer's powerful score elevates every moment, making this a truly immersive experience about love transcending time and space.</p>
+                        <div class="review-footer">
+                            <span class="genre-tag">Sci-Fi</span>
+                            <a href="ost.html" class="ost-link">Listen to OST</a>
+                        </div>
+                    </article>
+
+                    <article class="review-card" data-genre="action">
+                        <div class="review-header">
+                            <h3>The Dark Knight</h3>
+                            <div class="rating">★★★★★</div>
+                        </div>
+                        <div class="review-meta">
+                            <span>Director: Christopher Nolan</span>
+                            <span>Year: 2008</span>
+                        </div>
+                        <p>Heath Ledger's iconic Joker performance anchors this dark, complex superhero film that transcends its genre. The film explores themes of chaos, order, and moral ambiguity with unprecedented depth.</p>
+                        <div class="review-footer">
+                            <span class="genre-tag">Action</span>
+                            <a href="ost.html" class="ost-link">Listen to OST</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 CineReview. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
