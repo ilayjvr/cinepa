@@ -200,10 +200,24 @@ function closeModal() {
     document.body.style.overflow = 'auto';
 }
 
+function openHamiltonModal() {
+    document.getElementById('hamiltonModal').style.display = 'block';
+    document.body.style.overflow = 'hidden';
+}
+
+function closeHamiltonModal() {
+    document.getElementById('hamiltonModal').style.display = 'none';
+    document.body.style.overflow = 'auto';
+}
+
 // Close modal when clicking outside
 window.onclick = function(event) {
-    const modal = document.getElementById('articleModal');
-    if (event.target === modal) {
+    const articleModal = document.getElementById('articleModal');
+    const hamiltonModal = document.getElementById('hamiltonModal');
+    if (event.target === articleModal) {
         closeModal();
+    }
+    if (event.target === hamiltonModal) {
+        closeHamiltonModal();
     }
 }

@@ -567,6 +567,31 @@ main {
     background: #b20710;
 }
 
+.blog-buttons {
+    display: flex;
+    gap: 0.5rem;
+    align-items: baseline;
+    margin-top: 1rem;
+}
+
+.discussion-btn {
+    background: #971c1c;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.3s;
+    font-family: 'Poppins', sans-serif;
+    height: auto;
+    line-height: normal;
+}
+
+.discussion-btn:hover {
+    background: #b20710;
+}
+
 /* Blogs Section - IMDb Style */
 .blogs-section {
     padding: 60px 0;
