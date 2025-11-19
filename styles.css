@@ -949,9 +949,16 @@ footer {
         font-size: 1.5rem;
     }
     
-    .read-full-btn {
+    .read-full-btn,
+    .discussion-btn {
         padding: 0.6rem 1rem;
         font-size: 0.9rem;
+        height: auto;
+        line-height: 1.2;
+        min-height: 36px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
     }
     
     .filter-btn {
